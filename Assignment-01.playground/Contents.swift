@@ -120,6 +120,7 @@ if myString1[myString1.startIndex] == "a" && myString1[myString1.index(before: m
     print("bab")
 }
 
+
  //expected output bab
 //**************** END OF QUESTION 5 ****************
 
