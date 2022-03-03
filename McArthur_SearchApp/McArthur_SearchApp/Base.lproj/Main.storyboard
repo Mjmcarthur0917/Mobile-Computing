@@ -16,70 +16,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="qAH-5Y-WxX">
-                                <rect key="frame" x="35" y="108" width="299.5" height="34"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="68" translatesAutoresizingMaskIntoConstraints="NO" id="CI9-1P-VRL">
+                                <rect key="frame" x="20" y="74" width="374" height="748"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a Keyword to search..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Oi-hc-u8O">
-                                        <rect key="frame" x="0.0" y="0.0" width="209" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="qAH-5Y-WxX">
+                                        <rect key="frame" x="37.5" y="0.0" width="299.5" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a Keyword to search..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Oi-hc-u8O">
+                                                <rect key="frame" x="0.0" y="0.0" width="209" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRF-tI-gXQ">
+                                                <rect key="frame" x="210" y="0.0" width="89.5" height="34"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" image="magnifyingglass" catalog="system" title="Search"/>
+                                                <connections>
+                                                    <action selector="searchButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6V-sp-hf2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-Ik-iQk">
+                                        <rect key="frame" x="12" y="102" width="350" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="S8N-Eb-KSG"/>
+                                            <constraint firstAttribute="height" constant="200" id="sLG-3z-pi7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="OlM-WV-iSQ">
+                                        <rect key="frame" x="64.5" y="370" width="245" height="31"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzt-8i-zUe">
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="95" id="gaW-ft-xYB"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Prev Img"/>
+                                                <connections>
+                                                    <action selector="showPrevImgButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQo-7C-GXg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9K-5E-wbM">
+                                                <rect key="frame" x="150" y="0.0" width="95" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Next Img"/>
+                                                <connections>
+                                                    <action selector="showNextImgButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dN9-AF-j4w"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Smt-52-vUS">
+                                        <rect key="frame" x="67" y="469" width="240" height="150"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="TzS-aA-bFp"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRF-tI-gXQ">
-                                        <rect key="frame" x="210" y="0.0" width="89.5" height="34"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT0-93-V8I">
+                                        <rect key="frame" x="156.5" y="687" width="61" height="61"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" image="magnifyingglass" catalog="system" title="Search"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Reset"/>
                                         <connections>
-                                            <action selector="searchButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6V-sp-hf2"/>
+                                            <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Clz-ef-3v8"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-Ik-iQk">
-                                <rect key="frame" x="87" y="211" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzt-8i-zUe">
-                                <rect key="frame" x="65" y="433" width="118" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Prev Img"/>
-                                <connections>
-                                    <action selector="showPrevImgButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQo-7C-GXg"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Smt-52-vUS">
-                                <rect key="frame" x="87" y="555" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT0-93-V8I">
-                                <rect key="frame" x="164" y="772" width="87" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reset"/>
-                                <connections>
-                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Clz-ef-3v8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9K-5E-wbM">
-                                <rect key="frame" x="238" y="433" width="118" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Img"/>
-                                <connections>
-                                    <action selector="showNextImgButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dN9-AF-j4w"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CI9-1P-VRL" secondAttribute="trailing" constant="20" id="Gwv-2V-GQh"/>
+                            <constraint firstItem="CI9-1P-VRL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="v1I-p4-2tW"/>
+                            <constraint firstItem="CI9-1P-VRL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xqF-0H-Rnj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CI9-1P-VRL" secondAttribute="bottom" constant="40" id="zml-XP-GOl"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="nextButton" destination="L9K-5E-wbM" id="m8z-q8-48y"/>
+                        <outlet property="prevButton" destination="Yzt-8i-zUe" id="C9H-bY-F1K"/>
+                        <outlet property="resetButton" destination="OT0-93-V8I" id="fmt-Af-fUK"/>
                         <outlet property="resultImage" destination="MSO-Ik-iQk" id="CKa-yi-iaD"/>
                         <outlet property="searchTextField" destination="2Oi-hc-u8O" id="3In-1S-gps"/>
+                        <outlet property="textViewOutlet" destination="Smt-52-vUS" id="17J-Jl-0FI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
