@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F322B5727F4F38900A26177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B5627F4F38900A26177 /* AppDelegate.swift */; };
+		3F322B5927F4F38900A26177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B5827F4F38900A26177 /* SceneDelegate.swift */; };
+		3F322B5B27F4F38900A26177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B5A27F4F38900A26177 /* ViewController.swift */; };
+		3F322B5E27F4F38900A26177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F322B5C27F4F38900A26177 /* Main.storyboard */; };
+		3F322B6027F4F38900A26177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F322B5F27F4F38900A26177 /* Assets.xcassets */; };
+		3F322B6327F4F38900A26177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F322B6127F4F38900A26177 /* LaunchScreen.storyboard */; };
+		3F322B6E27F4F38900A26177 /* McArthur_WordGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B6D27F4F38900A26177 /* McArthur_WordGuessTests.swift */; };
+		3F322B7827F4F38900A26177 /* McArthur_WordGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B7727F4F38900A26177 /* McArthur_WordGuessUITests.swift */; };
+		3F322B7A27F4F38900A26177 /* McArthur_WordGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F322B7927F4F38900A26177 /* McArthur_WordGuessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F322B6A27F4F38900A26177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F322B4B27F4F38900A26177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F322B5227F4F38900A26177;
+			remoteInfo = McArthur_WordGuess;
+		};
+		3F322B7427F4F38900A26177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F322B4B27F4F38900A26177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F322B5227F4F38900A26177;
+			remoteInfo = McArthur_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F322B5327F4F38900A26177 /* McArthur_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McArthur_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F322B5627F4F38900A26177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F322B5827F4F38900A26177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F322B5A27F4F38900A26177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F322B5D27F4F38900A26177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F322B5F27F4F38900A26177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F322B6227F4F38900A26177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F322B6427F4F38900A26177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F322B6927F4F38900A26177 /* McArthur_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McArthur_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F322B6D27F4F38900A26177 /* McArthur_WordGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McArthur_WordGuessTests.swift; sourceTree = "<group>"; };
+		3F322B7327F4F38900A26177 /* McArthur_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McArthur_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F322B7727F4F38900A26177 /* McArthur_WordGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McArthur_WordGuessUITests.swift; sourceTree = "<group>"; };
+		3F322B7927F4F38900A26177 /* McArthur_WordGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McArthur_WordGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F322B5027F4F38900A26177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B6627F4F38900A26177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B7027F4F38900A26177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F322B4A27F4F38900A26177 = {
+			isa = PBXGroup;
+			children = (
+				3F322B5527F4F38900A26177 /* McArthur_WordGuess */,
+				3F322B6C27F4F38900A26177 /* McArthur_WordGuessTests */,
+				3F322B7627F4F38900A26177 /* McArthur_WordGuessUITests */,
+				3F322B5427F4F38900A26177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F322B5427F4F38900A26177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F322B5327F4F38900A26177 /* McArthur_WordGuess.app */,
+				3F322B6927F4F38900A26177 /* McArthur_WordGuessTests.xctest */,
+				3F322B7327F4F38900A26177 /* McArthur_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F322B5527F4F38900A26177 /* McArthur_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				3F322B5627F4F38900A26177 /* AppDelegate.swift */,
+				3F322B5827F4F38900A26177 /* SceneDelegate.swift */,
+				3F322B5A27F4F38900A26177 /* ViewController.swift */,
+				3F322B5C27F4F38900A26177 /* Main.storyboard */,
+				3F322B5F27F4F38900A26177 /* Assets.xcassets */,
+				3F322B6127F4F38900A26177 /* LaunchScreen.storyboard */,
+				3F322B6427F4F38900A26177 /* Info.plist */,
+			);
+			path = McArthur_WordGuess;
+			sourceTree = "<group>";
+		};
+		3F322B6C27F4F38900A26177 /* McArthur_WordGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F322B6D27F4F38900A26177 /* McArthur_WordGuessTests.swift */,
+			);
+			path = McArthur_WordGuessTests;
+			sourceTree = "<group>";
+		};
+		3F322B7627F4F38900A26177 /* McArthur_WordGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F322B7727F4F38900A26177 /* McArthur_WordGuessUITests.swift */,
+				3F322B7927F4F38900A26177 /* McArthur_WordGuessUITestsLaunchTests.swift */,
+			);
+			path = McArthur_WordGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F322B5227F4F38900A26177 /* McArthur_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F322B7D27F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuess" */;
+			buildPhases = (
+				3F322B4F27F4F38900A26177 /* Sources */,
+				3F322B5027F4F38900A26177 /* Frameworks */,
+				3F322B5127F4F38900A26177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = McArthur_WordGuess;
+			productName = McArthur_WordGuess;
+			productReference = 3F322B5327F4F38900A26177 /* McArthur_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F322B6827F4F38900A26177 /* McArthur_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F322B8027F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuessTests" */;
+			buildPhases = (
+				3F322B6527F4F38900A26177 /* Sources */,
+				3F322B6627F4F38900A26177 /* Frameworks */,
+				3F322B6727F4F38900A26177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F322B6B27F4F38900A26177 /* PBXTargetDependency */,
+			);
+			name = McArthur_WordGuessTests;
+			productName = McArthur_WordGuessTests;
+			productReference = 3F322B6927F4F38900A26177 /* McArthur_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F322B7227F4F38900A26177 /* McArthur_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F322B8327F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuessUITests" */;
+			buildPhases = (
+				3F322B6F27F4F38900A26177 /* Sources */,
+				3F322B7027F4F38900A26177 /* Frameworks */,
+				3F322B7127F4F38900A26177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F322B7527F4F38900A26177 /* PBXTargetDependency */,
+			);
+			name = McArthur_WordGuessUITests;
+			productName = McArthur_WordGuessUITests;
+			productReference = 3F322B7327F4F38900A26177 /* McArthur_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F322B4B27F4F38900A26177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F322B5227F4F38900A26177 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F322B6827F4F38900A26177 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F322B5227F4F38900A26177;
+					};
+					3F322B7227F4F38900A26177 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F322B5227F4F38900A26177;
+					};
+				};
+			};
+			buildConfigurationList = 3F322B4E27F4F38900A26177 /* Build configuration list for PBXProject "McArthur_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F322B4A27F4F38900A26177;
+			productRefGroup = 3F322B5427F4F38900A26177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F322B5227F4F38900A26177 /* McArthur_WordGuess */,
+				3F322B6827F4F38900A26177 /* McArthur_WordGuessTests */,
+				3F322B7227F4F38900A26177 /* McArthur_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F322B5127F4F38900A26177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F322B6327F4F38900A26177 /* LaunchScreen.storyboard in Resources */,
+				3F322B6027F4F38900A26177 /* Assets.xcassets in Resources */,
+				3F322B5E27F4F38900A26177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B6727F4F38900A26177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B7127F4F38900A26177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F322B4F27F4F38900A26177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F322B5B27F4F38900A26177 /* ViewController.swift in Sources */,
+				3F322B5727F4F38900A26177 /* AppDelegate.swift in Sources */,
+				3F322B5927F4F38900A26177 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B6527F4F38900A26177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F322B6E27F4F38900A26177 /* McArthur_WordGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F322B6F27F4F38900A26177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F322B7A27F4F38900A26177 /* McArthur_WordGuessUITestsLaunchTests.swift in Sources */,
+				3F322B7827F4F38900A26177 /* McArthur_WordGuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F322B6B27F4F38900A26177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F322B5227F4F38900A26177 /* McArthur_WordGuess */;
+			targetProxy = 3F322B6A27F4F38900A26177 /* PBXContainerItemProxy */;
+		};
+		3F322B7527F4F38900A26177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F322B5227F4F38900A26177 /* McArthur_WordGuess */;
+			targetProxy = 3F322B7427F4F38900A26177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F322B5C27F4F38900A26177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F322B5D27F4F38900A26177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F322B6127F4F38900A26177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F322B6227F4F38900A26177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F322B7B27F4F38900A26177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F322B7C27F4F38900A26177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F322B7E27F4F38900A26177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = McArthur_WordGuess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F322B7F27F4F38900A26177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = McArthur_WordGuess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F322B8127F4F38900A26177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McArthur_WordGuess.app/McArthur_WordGuess";
+			};
+			name = Debug;
+		};
+		3F322B8227F4F38900A26177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McArthur_WordGuess.app/McArthur_WordGuess";
+			};
+			name = Release;
+		};
+		3F322B8427F4F38900A26177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = McArthur_WordGuess;
+			};
+			name = Debug;
+		};
+		3F322B8527F4F38900A26177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.McArthur-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = McArthur_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F322B4E27F4F38900A26177 /* Build configuration list for PBXProject "McArthur_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F322B7B27F4F38900A26177 /* Debug */,
+				3F322B7C27F4F38900A26177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F322B7D27F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F322B7E27F4F38900A26177 /* Debug */,
+				3F322B7F27F4F38900A26177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F322B8027F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F322B8127F4F38900A26177 /* Debug */,
+				3F322B8227F4F38900A26177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F322B8327F4F38900A26177 /* Build configuration list for PBXNativeTarget "McArthur_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F322B8427F4F38900A26177 /* Debug */,
+				3F322B8527F4F38900A26177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F322B4B27F4F38900A26177 /* Project object */;
+}
