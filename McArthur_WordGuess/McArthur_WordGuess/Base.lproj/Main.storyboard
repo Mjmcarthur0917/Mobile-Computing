@@ -132,7 +132,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="PlayAgainButton" destination="GlJ-Wj-WyX" id="KzF-Qj-fLa"/>
                         <outlet property="guessCountLabel" destination="4hK-WP-JYW" id="dk6-L1-T5V"/>
+                        <outlet property="guessLetterButton" destination="DVg-cb-Hru" id="4fY-TS-8Vm"/>
                         <outlet property="guessedLetterField" destination="pc8-ep-tjs" id="95f-Ub-l4z"/>
                         <outlet property="hintLabel" destination="Hcu-7l-1DC" id="Mpu-dG-jnR"/>
                         <outlet property="totalWordsLabel" destination="mpI-hN-cbT" id="Xnx-hR-erd"/>
