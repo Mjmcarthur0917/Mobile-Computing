@@ -16,6 +16,7 @@
 		3F351ED127FC90E4007E1FDD /* McArthur_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F351ED027FC90E4007E1FDD /* McArthur_GroceryAppTests.swift */; };
 		3F351EDB27FC90E4007E1FDD /* McArthur_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F351EDA27FC90E4007E1FDD /* McArthur_GroceryAppUITests.swift */; };
 		3F351EDD27FC90E4007E1FDD /* McArthur_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F351EDC27FC90E4007E1FDD /* McArthur_GroceryAppUITestsLaunchTests.swift */; };
+		3F351EEA27FC9A60007E1FDD /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F351EE927FC9A60007E1FDD /* GroceryItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F351ED627FC90E4007E1FDD /* McArthur_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McArthur_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F351EDA27FC90E4007E1FDD /* McArthur_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McArthur_GroceryAppUITests.swift; sourceTree = "<group>"; };
 		3F351EDC27FC90E4007E1FDD /* McArthur_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McArthur_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F351EE927FC9A60007E1FDD /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3F351EBB27FC90E3007E1FDD /* SceneDelegate.swift */,
 				3F351EBD27FC90E3007E1FDD /* GrocerySectionsViewController.swift */,
 				3F351EBF27FC90E3007E1FDD /* Main.storyboard */,
+				3F351EE927FC9A60007E1FDD /* GroceryItemsViewController.swift */,
 				3F351EC227FC90E4007E1FDD /* Assets.xcassets */,
 				3F351EC427FC90E4007E1FDD /* LaunchScreen.storyboard */,
 				3F351EC727FC90E4007E1FDD /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				3F351EBE27FC90E3007E1FDD /* GrocerySectionsViewController.swift in Sources */,
 				3F351EBA27FC90E3007E1FDD /* AppDelegate.swift in Sources */,
+				3F351EEA27FC9A60007E1FDD /* GroceryItemsViewController.swift in Sources */,
 				3F351EBC27FC90E3007E1FDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

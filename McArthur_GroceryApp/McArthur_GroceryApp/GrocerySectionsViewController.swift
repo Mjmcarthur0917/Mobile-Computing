@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GrocerySectionViewController: UIViewController {
 
+    @IBOutlet weak var grocerySectionsTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
