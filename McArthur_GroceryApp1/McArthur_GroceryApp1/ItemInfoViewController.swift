@@ -11,14 +11,19 @@ class ItemInfoViewController: UIViewController {
 
     @IBOutlet weak var itemImageViewOutlet: UIImageView!
     
+    var groceryItem:GroceryItem = GroceryItem()
+    
     @IBOutlet weak var itemInfoOutlet: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        itemImageViewOutlet.image = UIImage(named: groceryItem.itemImage)
         // Do any additional setup after loading the view.
     }
     
     @IBAction func showItemInfoAction(_ sender: UIButton) {
+        itemInfoOutlet.isHidden = false
+        itemInfoOutlet.text = groceryItem.itemInfo
     }
     
     /*

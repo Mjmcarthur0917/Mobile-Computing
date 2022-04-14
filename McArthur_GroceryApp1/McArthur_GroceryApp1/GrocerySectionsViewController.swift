@@ -8,6 +8,9 @@
 import UIKit
 
 class GrocerySectionsViewController: UIViewController {
+    
+    let groceries = 
+    
 
     @IBOutlet weak var grocerySectionsTableView: UITableView!
     override func viewDidLoad() {
@@ -30,5 +33,10 @@ extension
 GrocerySectionsViewController:UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int)-> Int {
         return groceries.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = grocerySectionsTableView.dequeueReusableCell(withIdentifier: "sectionCell", for: indexPath)
+        cell.textLabel?.text = groceries[indexPath.row].section
+        return cell
     }
 }
