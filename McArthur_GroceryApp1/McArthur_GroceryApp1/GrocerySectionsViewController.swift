@@ -9,7 +9,7 @@ import UIKit
 
 class GrocerySectionsViewController: UIViewController {
     
-    let groceries = 
+    let groceries = GroceryArray
     
 
     @IBOutlet weak var grocerySectionsTableView: UITableView!
