@@ -19,6 +19,7 @@
 		3FBCB0F8280F059B00534F0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCB0F7280F059B00534F0D /* GoogleService-Info.plist */; };
 		3FBCB0FB280F06E100534F0D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3FBCB0FA280F06E100534F0D /* FirebaseAnalytics */; };
 		3FBCB0FD280F06E100534F0D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3FBCB0FC280F06E100534F0D /* FirebaseDatabase */; };
+		3FBCB0FF2811A5D500534F0D /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCB0FE2811A5D500534F0D /* ContactInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3FBCB0E8280F04CB00534F0D /* ContactListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITests.swift; sourceTree = "<group>"; };
 		3FBCB0EA280F04CB00534F0D /* ContactListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FBCB0F7280F059B00534F0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FBCB0FE2811A5D500534F0D /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				3FBCB0C9280F04CA00534F0D /* SceneDelegate.swift */,
 				3FBCB0CB280F04CA00534F0D /* ViewController.swift */,
 				3FBCB0CD280F04CA00534F0D /* Main.storyboard */,
+				3FBCB0FE2811A5D500534F0D /* ContactInfoViewController.swift */,
 				3FBCB0D0280F04CB00534F0D /* Assets.xcassets */,
 				3FBCB0D2280F04CB00534F0D /* LaunchScreen.storyboard */,
 				3FBCB0D5280F04CB00534F0D /* Info.plist */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBCB0CC280F04CA00534F0D /* ViewController.swift in Sources */,
+				3FBCB0FF2811A5D500534F0D /* ContactInfoViewController.swift in Sources */,
 				3FBCB0C8280F04CA00534F0D /* AppDelegate.swift in Sources */,
 				3FBCB0CA280F04CA00534F0D /* SceneDelegate.swift in Sources */,
 			);

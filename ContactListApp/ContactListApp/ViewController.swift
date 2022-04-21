@@ -26,7 +26,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return cell
         }
     
-        var contactNames : [String] = []
+    var contactNames : [String] = []
+    var contacts = NSDictionary()
         
     @IBOutlet weak var TableViewOutlet: UITableView!
     override func viewDidLoad() {
@@ -53,6 +54,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
         
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let transition = segue.identifier
+        if transition == "showInfoSegue"{
+            let destination = segue.destination as! ContactInfoViewController
+            let contactClicked = contactNames[(TableViewOutlet.indexPathForSelectedRow?.row)!]
+            for(key,value) in self.contacts{
+                if key as! String == contactClicked{
+                    for (key1, value1) in value as! [String:Any]{
+                        
+                        if key1 == "Email"{
+                            destination.email = value1 as! String
+                        }
+                        else if key1 == "PhoneNumber"{
+                            destination.phoneNum = value1 as! Int
+                        }
+                    }
+                }
+                print(key)//string
+                print(value)// dictionary
+            }
+        }
+    }
 
 
 }
